@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, request, session
-from flask_cors import CORS  # Import CORS to handle cross-origin requests
+from Flask import Flask, jsonify, request, session
+from Flask_cors import CORS  # Import CORS to handle cross-origin requests
 import secrets  # For generating a secure secret key
 
 # Initialize Flask app
